@@ -7,6 +7,14 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/js.js" href ="index.js">
     <body>
+
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+        </ul>      
+
         <h1>Health Insurance Recovery Solutions</h1>
         
         <p><strong><em>Health Insurance Recovery Solutions</em></strong> was conceived in 2021 to offer more devious services 
@@ -34,9 +42,13 @@
         <button class="button" id="demo" onClick="myFunction()">Absolutely! Just doing my part!</button>
         <script>
             function myFunction() {
-              document.getElementById("demo").innerHTML = "SUCKER!";
+                var str = "Sucker!";
+                var result = str.italics();
+                document.getElementById("demo").innerHTML = result;
             }
             </script>
+
+
         <button class="button2" id="button2" onClick="myFunction()">No way, you thieves!</button> 
         <script>
             function myFunction() { 
@@ -44,9 +56,6 @@
                 var result = str.italics();
                 document.getElementById("button2").innerHTML = result;
             }
-
-
-
         </script>
                    
 
