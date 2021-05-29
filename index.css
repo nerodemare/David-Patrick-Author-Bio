@@ -1,3 +1,6 @@
+
+/* These are BUTTONS on the website */
+
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -37,12 +40,14 @@
   }
 
 
+  /* This is the NAVIGATION BAR at the top of the web page(s) */
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #04442d;
   }
   
   li {
@@ -52,6 +57,7 @@
   li a {
     display: block;
     color: white;
+    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
