@@ -17,37 +17,34 @@
                 since the four main buttons will be the same stylistically and functionally-->
                 <!--onClick is not a selector; it is a function, exclusive with HMTL and JS, not CSS-->
                 <!--possibly need to change the <ul> to a <div> container for the dropdown buttons-->
-                <ul class ="drop-down" id="home-drop-down">
+                <div class ="drop-down" id="home-drop-down">
                     <li><a href="#">Useless Button No. 1</a></li>
                     <li><a href="#">Useless Button No. 2</a></li>
                     <li><a href="#">Useless Button No. 3</a></li>
-                </ul>
+                </div>>
 
             <li><a href="#news" class="Button" id="NewsButton" onClick="NewsButton()">NEWS</a></li>
-                <script>
-                    function NewsButton() {
-                        var str = "Useless Button No. 2";
-                        var result = str.italics();
-                        document.getElementById("NewsButton").innerHTML = result;
-                    }
-                </script>
-           
-           <li><a href="#contact" class="Button" id="ContactButton" onClick="ContactButton()">CONTACT</a></li>
-                <script>
-                    function ContactButton() {
-                        var str = "Useless Button No. 3"; 
-                        var result = str.italics(); 
-                        document.getElementById("ContactButton").innerHTML = result;
-                    }
-                </script>
+                <div class="drop-down" id="news-drop-down">
+                    <li><a href="#">Useless Button No. 1</a></li>
+                    <li><a href="#">Useless Button No. 2</a></li>
+                    <li><a href="#">Useless Button No. 3</a></li>
+                </div>>
+                        
+            <li><a href="#contact" class="Button" id="ContactButton" onClick="ContactButton()">CONTACT</a></li>
+                <div class="drop-down" id="contact-drop-down">
+                    <li><a href="#">Useless Button No. 1</a></li>
+                    <li><a href="#">Useless Button No. 2</a></li>
+                    <li><a href="#">Useless Button No. 3</a></li>
+                </div>>
+               
+
           <li><a href="#about" class="Button" id="AboutButton" onClick="AboutButton()">ABOUT</a></li>
-          <script>
-              function AboutButton() {
-                  var str = "Useless Button No. 4"; 
-                  var result = str.italics(); 
-                  document.getElementById("AboutButton").innerHTML = result; 
-              }
-          </script>  
+                <div class="drop-down" id="about-drop-down">
+                    <li><a href="#">Useless Button No. 1</a></li>
+                    <li><a href="#">Useless Button No. 2</a></li>
+                    <li><a href="#">Useless Button No. 3</a></li>
+                </div>>
+         
           
             
         </ul>
