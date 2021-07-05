@@ -1,11 +1,23 @@
 /* This is the NAVIGATION BAR at the top of the web page(s) */
 
-.Button {
-  background-color: #3498DB;
+.AuthorName {
+  background-color: black;
   color: white;
-  padding: 16px;
+  padding: 25px; 
+  font-size: 32px; 
+  font-weight: bold;
+  font-family: impact; 
+  border: none;  
+}
+
+
+.Button {
+  background-color:black;
+  color: white;
+  padding: 40px;
   font-size: 16px;
   border: none;
+  float: right;
   cursor: pointer;
 }
 
@@ -15,7 +27,7 @@
 
 .navigation-bar {
   overflow: hidden;
-  background-color: #3498DB; 
+  background-color: black; 
 }
 
 
@@ -70,6 +82,20 @@
   left: 403px; 
   top: 60px; 
 }
+
+
+div {
+  display: flex;
+  justify-content: center;
+}
+  
+  
+img {
+width: 200px;
+}
+
+
+
 
 /* These are BUTTONS on the website */
 
