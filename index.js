@@ -17,3 +17,12 @@ function AboutButton () {
 function TestButton () { 
     document.getElementById("test-drop-down").classList.toggle("show");
 }
+
+function ChangeLogo () {  
+    document.getElementById("Logo").src="David_Patrick_black_GIF_transparent_background_rev.gif";
+    setTimeout(ChangeLogoBack, 2000);
+}
+
+function ChangeLogoBack () { 
+    document.getElementById("Logo").src="Logo 2.jpg"
+}

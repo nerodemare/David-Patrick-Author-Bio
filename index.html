@@ -4,9 +4,10 @@
         <title>David Patrick Company Test Page</title> <!--This will not show up on the web page-->
                                  <!--Only use metadata in the HEAD element-->       
     </head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" media="screen and (min-width: 480px)" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="index.js"></script>
     <body>
     
    
@@ -36,7 +37,7 @@
                     <a href="#">Useless Button No. 9</a>
                 </div>
             </button>
-            
+
             <button class="Button" id="About" onClick="AboutButton()">ABOUT
                 <div class="drop-down-content" id="about-drop-down">
                     <a href="#">Useless Button No. 14</a>
@@ -45,7 +46,7 @@
                 </div>
             </button>
 
-         
+            
 
            
 
@@ -66,11 +67,12 @@
             </button>-->
         </div>
 
-
+ 
         <div>
-            <img src="C:\Users\thegr\PROJECTS\Health-Insurance-Recovery-Solutions\Logo 2.jpg" alt="Signature inside a circle">
+            <img id="Logo" onClick="ChangeLogo()" src="Logo 2.jpg" alt="Signature inside a circle">
         </div>
 
+        <article>
         <p>Vampires never before appealed to David Patrick when he decided to write a whole series 
     on the vampire mythology. Even after he finished his first book, he still had not seen a single movie,
     read a story, or played a video game on vampires. So what actually fascinated David in his childhood 
@@ -92,10 +94,10 @@
     kindled a flame in David to tell stories. He could not afford a 35mm film camera, so he could not yet
     make a movie. But he could afford a No. 2 pencil and a college ruled notebook. David now found his new
     favorite hobby to occupy downtime during school hours.
-    </p>
+        </p>
 
-    <h2>WRITING FICTION.</h2>
-    <p> David still had not been exposed to any vampire content. His parents raised him in a somewhat 
+        <h2>WRITING FICTION.</h2>
+        <p> David still had not been exposed to any vampire content. His parents raised him in a somewhat 
 puritanical home and did not allow him to engage in any entertainment surrounding grotesque levels of 
 violence, sexuality, or witchcraft. <strong>VAMPIRES STRUCK OUT ON ALL THREE.</strong> But he loved space
 operas and science fiction, which largely influenced his writing. In fact, at the ripe old age of eight 
@@ -104,10 +106,10 @@ inspired by Darth Vader and his brief travel to a barren planet where he built o
 Though Star Wars would remain his greatest inspiration, other movies would largely contribute to sculpting
 his style. Fast-forward four years, and David would find his next major influence in a classic science 
 fiction masterpiece. 
-    </p>
+        </p>
 
-    <h2>THE TERMINATOR.</h2>
-    <p>Hollywood regards James Cameron as another revolutionary director who in spite of less frequent 
+        <h2>THE TERMINATOR.</h2>
+        <p>Hollywood regards James Cameron as another revolutionary director who in spite of less frequent 
 movie releases always brings an incredible experience to the big screen. Though Titanic and Avatar sold 
 the most tickets at the box office—well, unadjusted to inflation—David mostly drew elements for his 
 writing from Cameron’s 1984 post-apocalyptic narrative about an evil cyborg from the future bent on 
@@ -121,10 +123,10 @@ friend of John Connor but also his father. Needless to say, David spent a long t
 around this fresh idea. But exposure to the Terminator franchise almost immediately segued into another 
 cinematic adventure with an equally influential movie that delved into the more obscure cyberpunk genre 
 less common in the western world.
-    </p>
+        </p>
 
-    <h2>THE MATRIX.</h2>
-    <p>This amalgamation of philosophy, religion, and kung fu brought a whole new experience to movie 
+        <h2>THE MATRIX.</h2>
+        <p>This amalgamation of philosophy, religion, and kung fu brought a whole new experience to movie 
 junkies. Borrowing eclectic values from the major world religions, such as dualism and the 
 spirit world, the Wachowskis put their own spin on these traditions with the notion of two
 realities—the real world in which machines have subdued the earth and taken most of humanity 
@@ -144,10 +146,10 @@ of other philosophical models. But sometimes the average fan of these classic fi
 on the fluid martial arts choreography of these superhuman protagonists bending time and space against
 the corrupt programs. Case in point, science fiction drove David at twelve years old to completing his
 first feature length novel that explored both time travel and human replication.
-    </p>
+        </p>
 
-    <h2>THE CLONE.</h2>
-    <p>In all fairness, The Clone was a derivative plot of both the Terminator and Matrix franchises. 
+        <h2>THE CLONE.</h2>
+        <p>In all fairness, The Clone was a derivative plot of both the Terminator and Matrix franchises. 
 David admits that had he ever published the work and garnered any success that people would 
 likely see the obvious borrowed elements and that possibly some lawyers might call for their 
 clients’ royalties lest a lawsuit transpire. Nevertheless, The Clone is still one of David’s 
@@ -158,12 +160,12 @@ why did David ever decide to write a book on vampires, and furthermore how did i
 into an even larger project and universe? Here David did not find inspiration from a book, like the 
 classic Bram Stoker’s Dracula or a modern pop culture TV series like Buffy the Vampire Slayer. 
 As a 90s baby, David resorted to a different medium of entertainment.
-    </p>
-    <h2>VIDEO GAMES.</h2>
-    <p>And which video game awakened a new idea?</p>
+        </p>
+        <h2>VIDEO GAMES.</h2>
+        <p>And which video game awakened a new idea?</p>
 
-    <h2>CASTLEVANIA.</h2>
-    <p>David was a video game addict as a child, so much that his parents never punished him other 
+        <h2>CASTLEVANIA.</h2>
+        <p>David was a video game addict as a child, so much that his parents never punished him other 
 than by restricting him from his video games. One day while perusing through an old Nintendo Power 
 magazine, David stumbled upon a few pages previewing upcoming installments to the Castlevania series 
 for the GameBoy Color—Circle of the Moon and Harmony of Dissonance. The stellar graphics caught his eye,
@@ -193,13 +195,14 @@ department store ten hours a week where he met a beautiful woman at the cosmetic
 of requests, including her favorite late Romantic piece Clair de Lune. Ten months later, David married
 Miss Sarah Rose. With her theater background and obsession with Shakespeare, Sarah Rose helped David 
 write more intricate and romantic subplots in his newer installments to the Nero Demare vampire series.
-    </p>
-    <br>
-    <br>
+        </p>
+        <br>
+        <br>
 Now they both continue to binge on movies and TV shows together, including classic vampire flicks and Game of Thrones, which David regards as one of the most well written book series of all time. Castlevania has even become one of her favorite video games due to her fascination with the Victorian architecture and wardrobe—and weapons.
 When David is not working on his next big story, he is composing music with his wife and jazz-fusion band S A L T on a Baldwin grand piano. 
-    <br>
-    <br>
+        <br>
+        <br>
+        </article>
         <button class="YesButton" id="YesButton" onClick="YesButton()">Absolutely! Just doing my part!</button>
         <script>
             function YesButton() {

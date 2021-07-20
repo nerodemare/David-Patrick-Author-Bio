@@ -55,32 +55,32 @@
 
 #home-drop-down { 
   position: absolute; 
-  left: 0px; 
-  top: 60px; 
+  left: 481px; 
+  top: 107px; 
 }
 
 #test-drop-down {
   position: absolute;  
   left: 93px; 
-  top: 60px; 
+  top: 107px; 
 }
 
 #news-drop-down {
   position: absolute;  
-  left: 208px; 
-  top: 60px; 
+  left: 765px; 
+  top: 107px; 
 }
 
 #contact-drop-down {
   position: absolute;  
-  left: 292px; 
-  top: 60px; 
+  left: 609px; 
+  top: 107px; 
 }
 
 #about-drop-down {
   position: absolute;  
-  left: 403px; 
-  top: 60px; 
+  left: 893px; 
+  top: 107px; 
 }
 
 
@@ -94,6 +94,12 @@ img {
 width: 200px;
 }
 
+
+
+
+article {
+  font-family: courier; 
+}
 
 
 
@@ -155,9 +161,13 @@ width: 200px;
 .BegButton:hover {
     background-color: #04442d;
     color: white;
-}  
+} 
 
 
-@media screen and (min-width: 480px) {
-    /*mobile first*/
+
+@media screen and (max-width: 480px) {
+  body {
+    color: blue; 
+  }
 }
+
