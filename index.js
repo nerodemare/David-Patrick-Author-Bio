@@ -26,3 +26,31 @@ function ChangeLogo () {
 function ChangeLogoBack () { 
     document.getElementById("Logo").src="Logo 2.jpg"
 }
+
+
+//Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page
+
+
+function YesButton() {
+    var str = "Sucker!";
+    var result = str.italics();
+    document.getElementById("YesButton").innerHTML = result;
+    document.getElementById("NoButton").innerHTML = "No way, you thieves!";
+    document.getElementById("MaybeButton").innerHTML = "I'm feeling wishy-woshy.";
+}
+
+function NoButton() {
+    var str = "That wasn't very cash money of you . . .";
+    var result = str.italics();
+    document.getElementById("NoButton").innerHTML = result;
+    document.getElementById("YesButton").innerHTML = "Absolutely! Just doing my part!";
+    document.getElementById("MaybeButton").innerHTML = "I'm feeling wishy-woshy.";
+}
+
+function MaybeButton() {
+    var str = "Yeah, whatever. Sure.".italics();
+    var result = str.italics();
+    document.getElementById("MaybeButton").innerHTML = result;
+    document.getElementById("YesButton").innerHTML =  "Absolutely! Just doing my part!";
+    document.getElementById("NoButton").innerHTML = "No way, you thieves!";
+}
