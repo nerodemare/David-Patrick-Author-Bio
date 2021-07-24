@@ -1,6 +1,6 @@
 /* This is the NAVIGATION BAR at the top of the web page(s) */
 
-.AuthorName {
+.author-name {
   background-color: black;
   color: white;
   padding: 25px; 
@@ -166,10 +166,21 @@ article {
 
 
 @media screen and (max-width: 480px) {
-  body {
-    color: blue; 
+  div.navigation-bar button {
+    margin-right: -2.5vw;
+    padding: 30px;
+    font-size: 14px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  body h2, p { 
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
+}
+
+
 
 .img-hover {
   cursor: pointer;
