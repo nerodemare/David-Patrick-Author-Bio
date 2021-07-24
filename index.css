@@ -171,3 +171,6 @@ article {
   }
 }
 
+.img-hover {
+  cursor: pointer;
+}
