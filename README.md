@@ -36,7 +36,7 @@ This is a BIO PAGE for the author David Patrick.
     <button class="MaybeButton" id="MaybeButton" onClick="MaybeButton()">I'm feeling wishy-woshy</button>
 ```
 
-(index.js - Line # 34) //Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page
+(index.js - Line # 34) <!--Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page-->
 
 ```
 function NoButton() {
