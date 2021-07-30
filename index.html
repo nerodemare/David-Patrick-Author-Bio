@@ -2,50 +2,52 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Patrick Company Test Page</title>
     <!--This will not show up on the web page-->
     <!--Only use metadata in the HEAD element-->
-</head>
-<link rel="stylesheet" type="text/css" href="index.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!--COMPLETED: Import Bootstrap from a CDN, then use Bootstrap’s column system to organize content areas based on mobile or 
-    desktop views (cannot be used on the same page as the Flexbox/CSS Grid requirement above)-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--COMPLETED: Import Bootstrap from a CDN, then use Bootstrap’s column system to organize content areas based on mobile or 
+        desktop views (cannot be used on the same page as the Flexbox/CSS Grid requirement above)-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
     crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-<script src="index.js"></script>
+    <script src="index.js"></script>
+</head>
 
 <body>
 
 
     <div class="navigation-bar">
         <h1 class="author-name">DAVID PATRICK</h1>
+        <button class="menu-button" onclick="ToggleMenu()">MENU</button>
+        <div class="hide" id="menu">
+            <a class="Button" id="HomeButton" href="#" onClick="HomeButton()">HOME
+                <div class="drop-down-content" id="home-drop-down"></div>
+            </a>
 
-        <a class="Button" id="HomeButton" href="#" onClick="HomeButton()">HOME
-            <div class="drop-down-content" id="home-drop-down"></div>
-        </a>
+            <a class="Button" id="ContactButton" href="#starWars" onClick="ContactButton()">CONTACT
+                <div class="drop-down-content" id="contact-drop-down"></div>
+            </a>
 
-        <a class="Button" id="ContactButton" href="#starWars" onClick="ContactButton()">CONTACT
-            <div class="drop-down-content" id="contact-drop-down"></div>
-        </a>
+            <a class="Button" id="NewsButton" href="#theClone" onClick="NewsButton()">NEWS
+                <div class="drop-down-content" id="news-drop-down"></div>
+            </a>
 
-        <a class="Button" id="NewsButton" href="#theClone" onClick="NewsButton()">NEWS
-            <div class="drop-down-content" id="news-drop-down"></div>
-        </a>
-
-        <a class="Button" id="About" href="#castlevania" onClick="AboutButton()">ABOUT
-            <div class="drop-down-content" id="about-drop-down"></div>
-        </a>
-
+            <a class="Button" id="About" href="#castlevania" onClick="AboutButton()">ABOUT
+                <div class="drop-down-content" id="about-drop-down"></div>
+            </a>
+        </div>
 
         <!--<button>
                 <audio controls autoplay> 
@@ -107,7 +109,7 @@
                 </p>
             </div>
             <div class="col-xl-6">
-                <h2 class="w-100">WRITING FICTION</h2>
+                <h2>WRITING FICTION</h2>
                 <p> David still had not been exposed to any vampire content. His parents raised him in a somewhat
                     puritanical home and did not allow him to engage in any entertainment surrounding grotesque levels
                     of

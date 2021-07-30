@@ -54,3 +54,9 @@ function MaybeButton() {
     document.getElementById("YesButton").innerHTML =  "Absolutely! Just doing my part!";
     document.getElementById("NoButton").innerHTML = "No way, you thieves!";
 }
+
+
+function ToggleMenu() { 
+    const menu = document.getElementById("menu"); 
+    menu.classList.toggle("hide"); 
+}

@@ -1,10 +1,10 @@
-# Health-Insurance-Recovery-Solutions
+# David Patrick Author Biography
 
-This is a BIO PAGE for the author David Patrick. 
+This is a BIO WEB PAGE for the author David Patrick. This project for Code Louisville Class of May 2021 exemplifies rudimentary features in HTML, CSS, and JS. Below you will find examples of code that specifically impacted the minimalist design layout of the web page. Enjoy! 
 
 
-(index.html - Lines # 14 thru # 24) <!--COMPLETED: Import Bootstrap from a CDN, then use Bootstrap’s column system to organize content areas based on mobile or 
-    desktop views (cannot be used on the same page as the Flexbox/CSS Grid requirement above)--> 
+## Features Implemented
+(index.html - Lines # 14 thru # 25) ===> Import Bootstrap from a CDN, then use Bootstrap’s column system to organize content areas based on mobile or desktop views (cannot be used on the same page as the Flexbox/CSS Grid requirement above
 
 ```    
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -29,14 +29,14 @@ This is a BIO PAGE for the author David Patrick.
 <script src="index.js"></script>
 ```
 
-(index.html - Line # 234) <!--Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code--> 
+(index.html - Line # 234) ===> Show/Hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code.
 ```
     <button class="YesButton" id="YesButton" onClick="YesButton()">Absolutely! Just doing my part!</button>
     <button class="NoButton" id="NoButton" onClick="NoButton()">No way, you thieves!</button>
     <button class="MaybeButton" id="MaybeButton" onClick="MaybeButton()">I'm feeling wishy-woshy</button>
 ```
 
-(index.js - Line # 34) <!--Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page-->
+(index.js - Line # 34) ===> Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page.
 
 ```
 function NoButton() {
@@ -57,9 +57,24 @@ function MaybeButton() {
 }
 ```
 
-Setup Instruction: 
+(index.html - Lines 97 & 111) ===> Use Bootstrap COLUMN classes to create a two column layout on larger screen sizes and a single layout on smaller screen sizes.
 
-1. Download the folder. 
-2. Click on the Index.HTML file. 
-3. Run new browser. 
+```
+<div class="col-xl-6">
+```
+
+I implemented a toggle menu using the following Javascript to toggle a class on the menu: 
+
+```
+function ToggleMenu() { 
+    const menu = document.getElementById("menu"); 
+    menu.classList.toggle("hide"); 
+}
+```
+
+The menu defaults to a column layout on a mobile screen, then toggles to a row layout on larger screens. 
+
+
+## Setup Instructions 
+Open Index.HTML file in a browser. 
 
